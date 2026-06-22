@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Generated reports and local output
+*.md
+*.json
+cron.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
