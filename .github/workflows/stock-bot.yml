@@ -2,7 +2,7 @@ name: Stock Bot
 
 on:
   schedule:
-    - cron: "0 14,18,23 * * 1-5" # UTC time
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 jobs:
