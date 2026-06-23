@@ -1,6 +1,9 @@
 name: Stock Bot
 
 "on":
+  push:
+    branches: [main]
+  workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
