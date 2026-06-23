@@ -6,7 +6,6 @@ name: Stock Bot
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
-  workflow_dispatch:
 
 jobs:
   run-stock-bot:
