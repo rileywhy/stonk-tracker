@@ -11,7 +11,7 @@ load_dotenv()
 tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-WATCHLIST = ["NVDA", "AMD", "MSFT", "MU"]
+WATCHLIST = ["NVDA", "AMD", "MSFT", "MU", "QCOM", "SNDK", "WDC"]
 
 def search_topic(query):
     response = tavily.search(
